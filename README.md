@@ -9,12 +9,12 @@ Consume data from an Server side Events(SSE) feed a enable querying the followin
 
 
 
-##consumer.py
+## consumer.py
 
 	usage:
 		nohup python consumer.py &
 
-##query.py
+## query.py
 
 	usage: query1.py [-h] [-u] [-s] [-e] [-r] [student] [exam]
 
@@ -24,7 +24,7 @@ Consume data from an Server side Events(SSE) feed a enable querying the followin
 
 
  	optional arguments:
-		-h, --help     show this help message and exit\
+		-h, --help     show this help message and exit
 		-u, --users    list students that have received at least one exam score.
 		-s, --scores   list all the exam results for a specified student ID.
 		-e, --exams    list all the exams that have been recorded.

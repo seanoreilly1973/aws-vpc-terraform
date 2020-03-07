@@ -9,12 +9,12 @@ Consume data from an Server side Events(SSE) feed a enable querying the followin
 
 
 
-#consumer.py
+##consumer.py
 
-usage:
-	nohup python consumer.py &
+	usage:
+		nohup python consumer.py &
 
-#query.py
+##query.py
 
 	usage: query1.py [-h] [-u] [-s] [-e] [-r] [student] [exam]
 
